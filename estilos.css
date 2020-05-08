@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /*background: #1f4037; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #99f2c8,
+    #1f4037
+  ); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+  font-size: 16px;
+}
+.wrap {
+  width: 90%;
+  max-width: 1000px;
+}
+.widget {
+  width: 40%;
+  margin: 2em;
+}
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+.fecha {
+  font-family: "Oswald", sans-serif, Arial;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0.3125rem;
+  background: rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  width: 100%;
+}
+.reloj {
+  font-family: "Oswald", sans-serif, Arial;
+  color: white;
+  width: 100%;
+  padding: 20px;
+  font-size: 4em;
+  text-align: center;
+  background: rgb(0, 0, 0, 0.8);
+}
+.reloj .caja-segundos {
+  display: inline-block;
+}
+.reloj .segundos,
+.reloj .ampm {
+  font-size: 2rem;
+  display: block;
+}
